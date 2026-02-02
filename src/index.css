@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+@theme {
+  /* Fonts */
+  --font-sans: "DM Sans", ui-sans-serif, system-ui;
+  --font-serif: "Playfair Display", ui-serif, Georgia;
+
+  /* Arbab Cafe Dark Theme Colors */
+  --background: oklch(12.67% 0.01 266); /* Almost Black */
+  --foreground: oklch(98% 0.01 266);     /* Off-White text */
+  
+  --card: oklch(16.67% 0.01 266);       /* Slightly lighter than background */
+  --card-foreground: oklch(98% 0.01 266);
+
+  --primary: oklch(45% 0.15 25);        /* Rich Crimson Red */
+  --primary-foreground: oklch(98% 0.01 266);
+
+  --secondary: oklch(25% 0.01 266);     /* Dark Gray for buttons/pills */
+  --secondary-foreground: oklch(98% 0.01 266);
+
+  --muted: oklch(25% 0.01 266);
+  --muted-foreground: oklch(70% 0.01 266);
+
+  --border: oklch(25% 0.01 266);
+}
+
+/* Global resets to ensure dark mode is forced */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  @apply antialiased;
+}
