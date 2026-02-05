@@ -35,7 +35,7 @@ export function Navbar() {
         <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
       )}
 
-      <nav className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav className="relative mx-auto max-w-500 px-4 sm:px-6 lg:px-8">
         <div
           className={`flex items-center justify-between transition-all duration-500 ${
             isScrolled ? "py-3" : "py-6"

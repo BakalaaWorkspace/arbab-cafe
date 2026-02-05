@@ -1,0 +1,1206 @@
+{
+    "categories": [
+        {
+            "id": "959f8159-d256-4ead-a213-a840c8880399",
+            "name": "Fries",
+            "products": [
+                {
+                    "id": "80747657-a03e-4d56-8312-609dd4751c85",
+                    "name": "Salted Fries",
+                    "price": 100,
+                    "image": "",
+                    "badge": "veg"
+                },
+                {
+                    "id": "e4bd84ab-25c4-44f1-a6db-f0261e25d215",
+                    "name": "Peri Peri Fries",
+                    "price": 120,
+                    "image": "",
+                    "badge": "veg"
+                },
+                {
+                    "id": "16f162a7-67bc-4c13-bc2a-3ecf5258e473",
+                    "name": "Masala Fries",
+                    "price": 130,
+                    "image": "",
+                    "badge": "veg"
+                },
+                {
+                    "id": "b69a154d-3e5e-472d-bee0-46c969db41d3",
+                    "name": "Cheesy Fries",
+                    "price": 150,
+                    "image": "",
+                    "badge": "veg"
+                },
+                {
+                    "id": "bd52ca67-4882-4037-9e82-7107f2a2326b",
+                    "name": "Chees Pasta Fries",
+                    "price": 250,
+                    "image": "",
+                    "badge": "veg"
+                },
+                {
+                    "id": "e77f4d7b-a25d-4387-85ec-f06608e9fb0a",
+                    "name": "Broasted Chicken Fries",
+                    "image": "",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "half",
+                            "price": 250
+                        },
+                        {
+                            "size": "full",
+                            "price": 499
+                        },
+                        {
+                            "size": "family",
+                            "price": 750
+                        }
+                    ]
+                },
+                {
+                    "id": "fb99ed10-420f-4c0e-bcd1-18829891427e",
+                    "name": "Chiptole Fries",
+                    "price": 170,
+                    "image": "",
+                    "badge": "veg"
+                },
+                {
+                    "id": "0a323971-4434-4670-bdec-9db3aa388e84",
+                    "name": "Overloaded Fries",
+                    "price": 170,
+                    "image": "",
+                    "badge": "veg"
+                },
+                {
+                    "id": "fea2fca9-8e57-4b0c-badc-6f83c66879e3",
+                    "name": "Overloaded Chicken Fries",
+                    "price": 170,
+                    "image": "",
+                    "badge": "non-veg"
+                }
+            ]
+        },
+        {
+            "id": "ccb34557-8f27-4fac-8943-c31c21f65a6c",
+            "name": "Potato Wedges",
+            "products": [
+                {
+                    "id": "9bc53adb-bd3f-40e6-bf59-5b7b38195beb",
+                    "name": "Salted Potato Wedges",
+                    "price": 120,
+                    "image": "",
+                    "badge": "veg"
+                },
+                {
+                    "id": "b4f33956-f96a-4ff4-9ade-4f8c750b8170",
+                    "name": "Peri Peri Potato Wedges",
+                    "price": 140,
+                    "image": "",
+                    "badge": "spicy"
+                },
+                {
+                    "id": "1bf64eef-0820-4aa4-8b8d-99b3cd409ef2",
+                    "name": "Cheesy Potato Wedges",
+                    "price": 150,
+                    "image": "",
+                    "badge": "cheesy"
+                },
+                {
+                    "id": "a65ea0bd-2e70-47fc-9595-4a4d5e7cf497",
+                    "name": "Chiptole Potato Wedges",
+                    "price": 150,
+                    "image": "",
+                    "badge": "veg"
+                },
+                {
+                    "id": "33baf0d6-2cea-4504-8e4e-aa4744e82ccd",
+                    "name": "Sweet Chilly Potato Wedges",
+                    "price": 200,
+                    "image": "",
+                    "badge": "veg"
+                }
+            ]
+        },
+        {
+            "id": "ff0768e5-4663-4646-8143-92f5bc8c1621",
+            "name": "Wings",
+            "products": [
+                {
+                    "id": "74ccb5ef-b831-4ca8-8759-4b8a03d41654",
+                    "name": "chicken wings",
+                    "price": 150
+                },
+                {
+                    "id": "65d7fe69-d073-43d1-a5ab-bdb3e742bbd7",
+                    "name": "peri peri wings",
+                    "price": 170
+                },
+                {
+                    "id": "ceaed794-340d-42e8-b332-4aae806a07bb",
+                    "name": "cajun wings",
+                    "price": 190
+                },
+                {
+                    "id": "5e9d4990-1ab5-4a2d-8210-d364be439b46",
+                    "name": "cheesy wings",
+                    "price": 230
+                },
+                {
+                    "id": "e88187dc-8258-4851-aba5-8f41569e60ff",
+                    "name": "sweet chilly wings",
+                    "price": 250
+                },
+                {
+                    "id": "de009ac1-18cb-4f9c-87f8-489b45393c73",
+                    "name": "chiptole wings",
+                    "price": 230
+                },
+                {
+                    "id": "4851c1e5-8354-4b41-a53c-f295f7333708",
+                    "name": "korean spicy wings",
+                    "price": 250
+                }
+            ]
+        },
+        {
+            "id": "e276d484-c82a-46d9-90a8-05223674941f",
+            "name": "Mocktails",
+            "products": [
+                {
+                    "id": "9b268d30-f1bf-4d05-8b71-35e43e1f0da9",
+                    "name": "mojito",
+                    "price": 99
+                },
+                {
+                    "id": "200eb925-c15f-487f-bf89-7a595be475fb",
+                    "name": "watermelon",
+                    "price": 99
+                },
+                {
+                    "id": "124da85d-1c20-4874-b945-00850ae9a4e6",
+                    "name": "orange",
+                    "price": 99
+                },
+                {
+                    "id": "f24005cb-63fd-4e84-818c-82f14e02687a",
+                    "name": "mix fruit",
+                    "price": 130
+                }
+            ]
+        },
+        {
+            "id": "7e3c872f-e2d1-41fc-bd7e-647e4cd6513e",
+            "name": "Sandwich",
+            "products": [
+                {
+                    "id": "c27b1cfb-ffb1-48cf-8eee-80a9bcbf1973",
+                    "name": "veg. sandwich",
+                    "price": 100,
+                    "badge": "veg"
+                },
+                {
+                    "id": "f0a1897b-0a74-4afd-bbbb-94d695e186bc",
+                    "name": "chicken tikka sandwich",
+                    "price": 100,
+                    "badge": "non-veg"
+                },
+                {
+                    "id": "59fdb8fa-ddbc-4241-9863-8a2348637ee9",
+                    "name": "chicken bbq sandwich",
+                    "price": 120,
+                    "badge": "non-veg"
+                },
+                {
+                    "id": "91ca9a06-5448-4b99-8875-1600ac09b4c3",
+                    "name": "chicken creamy sandwich",
+                    "price": 150,
+                    "badge": "non-veg"
+                },
+                {
+                    "id": "4e1b6591-778a-404c-b2ee-4a3f2add8239",
+                    "name": "chicken cheese burst sandwich",
+                    "price": 200,
+                    "badge": "cheesy"
+                },
+                {
+                    "id": "5cf4e5c7-0b66-45f5-be9d-12cf3fd48e1c",
+                    "name": "chicken mozrilla sandwich",
+                    "price": 300,
+                    "badge": "non-veg"
+                }
+            ]
+        },
+        {
+            "id": "2bf07d57-aec3-4edf-bba9-b36845ba0b82",
+            "name": "Wraps",
+            "products": [
+                {
+                    "id": "82f97680-05aa-4d9d-86f5-4c3b4283293d",
+                    "name": "crispy wrap",
+                    "price": 90,
+                    "badge": "non-veg"
+                },
+                {
+                    "id": "46a43de3-b5c6-442c-8d3c-c2418530de28",
+                    "name": "spicy wrap",
+                    "price": 110,
+                    "badge": "spicy"
+                },
+                {
+                    "id": "18285d99-e0b4-45da-b256-038f8c7108a2",
+                    "name": "bbq wrap",
+                    "price": 110,
+                    "badge": "non-veg"
+                },
+                {
+                    "id": "24e47d86-9561-4f6d-85b5-b86ba4dc8a02",
+                    "name": "sweet chilly wrap",
+                    "price": 130,
+                    "badge": "non-veg"
+                },
+                {
+                    "id": "4d808465-7afa-4e3d-beec-10832b0d005d",
+                    "name": "cheese burst wrap",
+                    "price": 150,
+                    "badge": "cheesy"
+                }
+            ]
+        },
+        {
+            "id": "b7adbb79-63fa-45b7-985a-e65287d90f00",
+            "name": "Momos",
+            "products": [
+                {
+                    "id": "699eacb8-fbd0-4398-b496-de53ead46aec",
+                    "name": "fried momos (6 pcs)",
+                    "price": 100
+                },
+                {
+                    "id": "0899a3e7-5121-4b84-af53-5fa1a8c995ee",
+                    "name": "peri peri momos (6 pcs)",
+                    "price": 120
+                },
+                {
+                    "id": "824c757b-ac5a-4ca8-a6f8-9e92c6ef79a5",
+                    "name": "cajun momos (6 pcs)",
+                    "price": 120
+                },
+                {
+                    "id": "69e7f2c8-89d2-4538-ba9e-186941bd96f6",
+                    "name": "chicken cheese momos",
+                    "price": 140
+                },
+                {
+                    "id": "65088e8e-5be1-428a-aeb0-28365cad2374",
+                    "name": "sweet chilly pan fried momos (6 pcs)",
+                    "price": 150
+                },
+                {
+                    "id": "06625ad7-6aee-4e72-9456-92a67b4548e7",
+                    "name": "schezwan pan fried momos (6 pcs)",
+                    "price": 150
+                },
+                {
+                    "id": "3641bd9f-3e6f-4f53-8971-40c5ded46dff",
+                    "name": "malai pan fried momos (6 pcs)",
+                    "price": 160
+                },
+                {
+                    "id": "23f0d82c-1f57-4219-9d5d-8e58408cd1dd",
+                    "name": "kurkure chicken momos (6 pcs)",
+                    "price": 140
+                }
+            ]
+        },
+        {
+            "id": "3f6f6fb8-ca22-4cc4-ac71-a159c1fbfb46",
+            "name": "Pizza",
+            "products": [
+                {
+                    "id": "22aeba00-39b0-4f90-8ba4-c7049d509c0f",
+                    "name": "dominator pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 280
+                        },
+                        {
+                            "size": "medium",
+                            "price": 450
+                        }
+                    ]
+                },
+                {
+                    "id": "53f67b38-629d-4167-9faa-62048a87f84d",
+                    "name": "mexican pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 270
+                        },
+                        {
+                            "size": "medium",
+                            "price": 430
+                        }
+                    ]
+                },
+                {
+                    "id": "7cbce1b9-ac5c-4eeb-9b0b-07e7116d7350",
+                    "name": "volcano pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 450
+                        },
+                        {
+                            "size": "medium",
+                            "price": 800
+                        }
+                    ]
+                },
+                {
+                    "id": "97254f55-e7a7-45f3-9fc9-7fb83a53df83",
+                    "name": "tikka pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "4c9c740c-19f8-4550-933c-2147d50a78fd",
+                    "name": "peri peri pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "11111c87-1e43-4394-9dee-a64fd78ad373",
+                    "name": "bbq pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "bada6018-b00d-425d-918d-acf73ddde208",
+                    "name": "chiptole pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "5a6fd77b-867f-49b2-b6e6-7d63144ae62f",
+                    "name": "bitter cheese pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "e527b126-e84b-4209-9258-e07bf714ea51",
+                    "name": "golden delight pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "90367edc-e592-4f17-a014-fbcf1abc73ce",
+                    "name": "cheese burst pizza",
+                    "badge": "cheesy",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 300
+                        },
+                        {
+                            "size": "medium",
+                            "price": 650
+                        }
+                    ]
+                },
+                {
+                    "id": "4cef2529-b170-4803-8b28-57a06b06fd1c",
+                    "name": "veg. pizza",
+                    "badge": "veg",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bc2936bc-abb3-400d-85fa-2ca15be3099f",
+            "name": "Add-On",
+            "products": [
+                {
+                    "id": "7fc04faa-ee81-427d-b32a-1f5174fe91be",
+                    "name": "extra cheese",
+                    "price": 20
+                },
+                {
+                    "id": "067e9b20-7314-4f5b-a146-20f8a0cf39b7",
+                    "name": "extra mayo",
+                    "price": 30
+                },
+                {
+                    "id": "142f1914-c964-4958-b35c-a1a07a8277c1",
+                    "name": "coselaw salad",
+                    "price": 60
+                }
+            ]
+        },
+        {
+            "id": "639e49fc-0b41-4930-b04b-ee1b29965225",
+            "name": "Burger",
+            "products": [
+                {
+                    "id": "75765a51-ee14-4ceb-86c0-f6ea8ed89f41",
+                    "name": "chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 80
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "eae791ad-77fc-41ff-b83b-5a678da9281d",
+                    "name": "whole chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 130
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 150
+                        }
+                    ]
+                },
+                {
+                    "id": "4b754c23-cd35-4a62-adcc-ca3e22766c1d",
+                    "name": "crispy chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 100
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 120
+                        }
+                    ]
+                },
+                {
+                    "id": "fc905dde-974f-4a3d-89eb-081c6d683652",
+                    "name": "xinger chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 120
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 140
+                        }
+                    ]
+                },
+                {
+                    "id": "142efef6-69c0-43db-be75-869f61034f28",
+                    "name": "bbq chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 150
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 170
+                        }
+                    ]
+                },
+                {
+                    "id": "a8352f60-e0f6-42f3-8e11-671a89a09990",
+                    "name": "peri peri chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": "150"
+                        },
+                        {
+                            "size": "cheese",
+                            "price": "170"
+                        }
+                    ]
+                },
+                {
+                    "id": "40941e59-594e-4db0-a59a-dadaafa7c472",
+                    "name": "spicy chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": "150"
+                        },
+                        {
+                            "size": "cheese",
+                            "price": "170"
+                        }
+                    ]
+                },
+                {
+                    "id": "6456e56f-0d3f-45ae-8993-d140481c9861",
+                    "name": "double cheese burger",
+                    "badge": "non-veg",
+                    "price": 200
+                },
+                {
+                    "id": "1d736764-3929-41be-bd8c-c6c71447b2e9",
+                    "name": "cheese burst burger",
+                    "badge": "non-veg",
+                    "price": 200
+                },
+                {
+                    "id": "a23685de-7812-48d3-b66b-ed8990cebc66",
+                    "name": "grilled burger",
+                    "badge": "non-veg",
+                    "price": 120
+                }
+            ]
+        },
+        {
+            "id": "9227d99e-eb4f-4ec1-bc0d-6f9cf404f385",
+            "name": "Smashed Grilled Burger (Premium)",
+            "products": [
+                {
+                    "id": "b458f9a7-b0c6-4958-a22c-ab05f9f6b691",
+                    "name": "chicken smashed burger with cheese",
+                    "price": 140,
+                    "badge": "non-veg"
+                },
+                {
+                    "id": "8e89e1b9-15b3-44f7-83f5-5b17de438958",
+                    "name": "chicken smashed double patty with cheese",
+                    "price": 200,
+                    "badge": "non-veg"
+                },
+                {
+                    "id": "da17e988-1de9-4d4f-a189-ae1de298ea6b",
+                    "name": "chicken smashed triple patty with cheese",
+                    "price": 280,
+                    "badge": "non-veg"
+                }
+            ]
+        },
+        {
+            "id": "affc2b19-4a30-4ff9-84f1-2a0b387a591d",
+            "name": "double burger",
+            "products": [
+                {
+                    "id": "21ac08e7-ac82-47d6-bcd4-72cf69db96d6",
+                    "name": "chicken burger",
+                    "price": 180
+                },
+                {
+                    "id": "816ab851-8058-4193-8023-817e0a2f5588",
+                    "name": "xinger + xinger",
+                    "price": 200
+                },
+                {
+                    "id": "f13fd6c7-24bc-495f-bdd3-058e1e021235",
+                    "name": "whole + whole",
+                    "price": 200
+                },
+                {
+                    "id": "ed0ea684-722c-4220-a851-d23cbd27497b",
+                    "name": "xinger + whole",
+                    "price": 200
+                },
+                {
+                    "id": "61925c69-b563-41a5-b14a-e3048e81d0a8",
+                    "name": "big town burger",
+                    "price": 700
+                }
+            ]
+        },
+        {
+            "id": "4d52dbc7-f786-446f-a796-8d11878cea09",
+            "name": "bucket broast",
+            "products": [
+                {
+                    "id": "b5b117e8-c1d1-4407-87b6-95fb442f3bef",
+                    "name": "popcorn",
+                    "price": 400
+                },
+                {
+                    "id": "2c6e82b3-ce4f-4a46-87a9-59f9ec6fa7c2",
+                    "name": "wings broast",
+                    "price": 450
+                },
+                {
+                    "id": "e87a4699-7bff-4f14-bea1-22c05eca74bb",
+                    "name": "strips broast",
+                    "price": 450
+                },
+                {
+                    "id": "e8f7f150-73dd-4e7c-8f17-82b17f85063f",
+                    "name": "party broast",
+                    "price": 1000
+                },
+                {
+                    "id": "82d29f44-de49-4207-991d-999ccac686ac",
+                    "name": "loaded broast chicken",
+                    "price": 1000
+                }
+            ]
+        },
+        {
+            "id": "50f4ea1c-9d91-4eea-b795-245a2330890b",
+            "name": "Broasted Starter",
+            "products": [
+                {
+                    "id": "cbb6dc54-e1b0-45d3-98d6-f6de0695feeb",
+                    "name": "popcorn (10 pcs)",
+                    "price": 100
+                },
+                {
+                    "id": "2b454eab-a171-40f5-884a-36315c979f44",
+                    "name": "peri peri popcorn",
+                    "price": 120
+                },
+                {
+                    "id": "681cf691-bd56-471b-b685-ae685a5dd64e",
+                    "name": "cheezy popcorn",
+                    "price": 160
+                },
+                {
+                    "id": "b9565fdf-977e-4935-8e43-e44d94603a34",
+                    "name": "strips",
+                    "price": 150
+                },
+                {
+                    "id": "a761a227-4db0-4862-87a4-6ac6a3788411",
+                    "name": "peri peri strips",
+                    "price": 170
+                },
+                {
+                    "id": "397edf8b-98d1-454f-aa01-01ac1e70f631",
+                    "name": "cheesy strips",
+                    "price": 180
+                },
+                {
+                    "id": "11a97d5f-c9aa-47a0-a1de-ca7e182249e9",
+                    "name": "chicken nuggets",
+                    "price": 150
+                },
+                {
+                    "id": "58a93cb5-83bc-47ef-b0a3-1871adf2c3dc",
+                    "name": "chicken nuggets",
+                    "price": 190
+                }
+            ]
+        },
+        {
+            "id": "45ae437e-32db-4020-a34f-24864d5c8764",
+            "name": "broasted arbab",
+            "products": [
+                {
+                    "id": "0906cd1e-7b82-401f-b695-bc439b48fa64",
+                    "name": "broasted chi. (5 pcs)",
+                    "price": 400
+                },
+                {
+                    "id": "a0bc62b4-da5d-44e9-a732-dcdb787275bf",
+                    "name": "broasted chi. (10 pcs)",
+                    "price": 780
+                },
+                {
+                    "id": "52a94816-19b0-4027-b867-eeb674a8244f",
+                    "name": "boneless broasted chi. (5 pcs)",
+                    "price": 500
+                },
+                {
+                    "id": "8ddbcb7f-70aa-4673-b2cb-97b4555323fd",
+                    "name": "boneless broasted chi. (10 pcs)",
+                    "price": 800
+                },
+                {
+                    "id": "f52b93b6-57c6-4be2-9cbc-397e8ae941f9",
+                    "name": "fully fired chicken",
+                    "price": 500
+                },
+                {
+                    "id": "c53bd1b5-319f-4706-abf3-07eca367d9cf",
+                    "name": "broast drumstick (1 pc)",
+                    "price": 90
+                },
+                {
+                    "id": "e363f51d-9760-4c22-a974-b6ba794a335b",
+                    "name": "thai broasted (1 pc)",
+                    "price": 90
+                },
+                {
+                    "id": "112de80b-9f4f-4c30-9e26-33120c28468e",
+                    "name": "breast broasted (1 pc)",
+                    "price": 100
+                }
+            ]
+        },
+        {
+            "id": "98fea197-5ca8-4d5b-9ee3-ba70d0437e79",
+            "name": "tandoori broast",
+            "products": [
+                {
+                    "id": "2c0e3623-6ba6-4aa4-8ceb-908580a322cb",
+                    "name": "tandoori whole chi. broast",
+                    "price": 500
+                },
+                {
+                    "id": "886776e1-edba-4637-97a7-0c8e8ba2a990",
+                    "name": "tandoori sweet chilly broast",
+                    "price": 600
+                },
+                {
+                    "id": "1556bfee-4ca0-4aea-8c7d-aa9454de8adb",
+                    "name": "tandoori cheezy broast",
+                    "price": 700
+                }
+            ]
+        },
+        {
+            "id": "9c00c20b-9807-4e51-b8fb-726f94a53f65",
+            "name": "broasted burger",
+            "products": [
+                {
+                    "id": "3db8ea2e-b298-49d5-8fec-2666ca3d7b8e",
+                    "name": "broasted burger",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 120
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 140
+                        }
+                    ]
+                },
+                {
+                    "id": "1e1dab84-01e0-485d-875b-9e4614a883bb",
+                    "name": "crunchiest burger",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 130
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 150
+                        }
+                    ]
+                },
+                {
+                    "id": "d39908dc-51be-4235-8456-93bfc40258c4",
+                    "name": "broasted spicy burger",
+                    "badge": "spicy",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 140
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 160
+                        }
+                    ]
+                },
+                {
+                    "id": "7b8b49d4-546e-4bdb-957a-835e6f79e78f",
+                    "name": "broasted peri peri burger",
+                    "badge": "spicy",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 150
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 170
+                        }
+                    ]
+                },
+                {
+                    "id": "5b2d7e0a-b53d-4ef4-8246-8feecf3c59e7",
+                    "name": "broasted bbq burger",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 150
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 170
+                        }
+                    ]
+                },
+                {
+                    "id": "0c5181b4-65e6-4148-b611-2037fd68b255",
+                    "name": "broasted sweet chilly burger",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 180
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 200
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "91b24eca-001b-41e7-8b57-6ef44c21af9a",
+            "name": "Broasted with Sweet Chilly",
+            "products": [
+                {
+                    "id": "d1deb87b-1436-41b6-8329-d905e831672c",
+                    "name": "sweet chilly broasted (5 pcs)",
+                    "price": 600
+                },
+                {
+                    "id": "4bb3eac8-ec0e-47a6-a69e-de7d2e149d30",
+                    "name": "sweet chilly broasted (10 pcs)",
+                    "price": 1000
+                },
+                {
+                    "id": "666630f4-3c40-4967-bfbf-9f8eaf600588",
+                    "name": "sweet chilly drumstick (5 pcs)",
+                    "price": 550
+                },
+                {
+                    "id": "bb644fa9-f59f-4e79-a4db-4d50a1b1f2da",
+                    "name": "sweet chilly drumstick (10 pcs)",
+                    "price": 950
+                },
+                {
+                    "id": "329b0f3a-306e-4955-bd6e-aee2c552bd54",
+                    "name": "sweet chilly thai broast (5 pcs)",
+                    "price": 580
+                },
+                {
+                    "id": "68cfa43a-d465-49d2-b3b2-0cec493856be",
+                    "name": "sweet chilly thai broast (10 pcs)",
+                    "price": 980
+                }
+            ]
+        },
+        {
+            "id": "ad5a7bf7-13b0-47cd-8390-f0cae4ac61fe",
+            "name": "Milkshakes",
+            "products": [
+                {
+                    "id": "16ce6427-bd5f-4334-90bf-cd301326d1ee",
+                    "name": "kit kat milkshake",
+                    "price": 180
+                },
+                {
+                    "id": "83fa4a94-ab79-44a5-92d7-730b819803a1",
+                    "name": "oreo milkshake",
+                    "price": 180
+                },
+                {
+                    "id": "3f746879-f5e1-4781-8d84-96f2849f13d3",
+                    "name": "butterscotch milkshake",
+                    "price": 180
+                },
+                {
+                    "id": "e634ea4f-bf8d-4a86-b59b-07bb962a2793",
+                    "name": "strawberry milkshake",
+                    "price": 180
+                },
+                {
+                    "id": "73acb4d6-823d-46ef-b5de-a00301895999",
+                    "name": "mango milkshake",
+                    "price": 180
+                },
+                {
+                    "id": "b4ff2c1d-90ec-4652-a96b-317dc412b451",
+                    "name": "arbab special milkshake",
+                    "price": 250
+                },
+                {
+                    "id": "d97b2378-7308-48e8-ae50-3f6925da221b",
+                    "name": "chocolate milkshake",
+                    "price": 180
+                },
+                {
+                    "id": "6b07d11f-56f0-4925-b21d-f8472bef3010",
+                    "name": "cold coffee",
+                    "price": 120
+                },
+                {
+                    "id": "429f966f-82bc-4056-b0e2-888aca24e6db",
+                    "name": "ice frappuccino",
+                    "price": 150
+                },
+                {
+                    "id": "9b2e972e-55ed-4541-b84c-8f68726133f7",
+                    "name": "coca moka",
+                    "price": 180
+                }
+            ]
+        },
+        {
+            "id": "ff22eeef-2e82-4141-9967-33d42f88f2a2",
+            "name": "smash burger",
+            "products": [
+                {
+                    "id": "35152949-b6f3-430c-90b1-1f305676546d",
+                    "name": "smash burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "single patty",
+                            "price": 90
+                        },
+                        {
+                            "size": "double patty",
+                            "price": 150
+                        },
+                        {
+                            "size": "triple patty",
+                            "price": 210
+                        }
+                    ]
+                },
+                {
+                    "id": "2b9f8373-52a0-4009-b1e4-60088cac7fd5",
+                    "name": "chiptole smash burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "single patty",
+                            "price": 110
+                        },
+                        {
+                            "size": "double patty",
+                            "price": 170
+                        },
+                        {
+                            "size": "triple patty",
+                            "price": 230
+                        }
+                    ]
+                },
+                {
+                    "id": "c83cad98-eb41-4d75-8719-3a3af58484a6",
+                    "name": "tandoori smash burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "single patty",
+                            "price": 110
+                        },
+                        {
+                            "size": "double patty",
+                            "price": 170
+                        },
+                        {
+                            "size": "triple patty",
+                            "price": 230
+                        }
+                    ]
+                },
+                {
+                    "id": "9d9fafd9-6eff-4410-b15d-6dff503b8d6c",
+                    "name": "peri peri smash burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "single patty",
+                            "price": 110
+                        },
+                        {
+                            "size": "double patty",
+                            "price": 170
+                        },
+                        {
+                            "size": "triple patty",
+                            "price": 230
+                        }
+                    ]
+                },
+                {
+                    "id": "c0fdb183-b5b5-4a1b-b3eb-53b5fff4e0ec",
+                    "name": "american mexican burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "single patty",
+                            "price": 110
+                        },
+                        {
+                            "size": "double patty",
+                            "price": 170
+                        },
+                        {
+                            "size": "triple patty",
+                            "price": 230
+                        }
+                    ]
+                },
+                {
+                    "id": "d814a6bc-3fad-49ce-ab4d-d94421347842",
+                    "name": "double cheese burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "single patty",
+                            "price": 140
+                        },
+                        {
+                            "size": "double patty",
+                            "price": 200
+                        },
+                        {
+                            "size": "triple patty",
+                            "price": 260
+                        }
+                    ]
+                },
+                {
+                    "id": "6e98b272-a6d5-474c-b599-2a8e20eb3592",
+                    "name": "smash burger box (burger, fries & mayo dip)",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "single patty",
+                            "price": 200
+                        },
+                        {
+                            "size": "double patty",
+                            "price": 260
+                        },
+                        {
+                            "size": "triple patty",
+                            "price": 320
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0f9c624e-6be0-46a7-93d4-9469cddebc3d",
+            "name": "Meals",
+            "products": [
+                {
+                    "id": "0ef55f18-9137-46b0-b899-1a9607fdfe24",
+                    "name": "chicken burger (2),popcorn (1), fries (1), cold drink (1)",
+                    "price": 350
+                },
+                {
+                    "id": "9746897f-cba6-4d02-8656-076cdff928ed",
+                    "name": "whole burger (2), popcorn (1), fries (1), cold drink (1)",
+                    "price": 450
+                },
+                {
+                    "id": "359350b3-e3b2-4bbf-aba3-370253d2ad68",
+                    "name": "broasted burger (3), popcorn (1), fries (1), cold drink (1)",
+                    "price": 550
+                },
+                {
+                    "id": "e5488e80-5906-4df9-bc8f-32b89320b79f",
+                    "name": "spicy burger (3), popcorn (1), strip (1), fries (1), cold drink (1)",
+                    "price": 750
+                }
+            ]
+        }
+    ]
+}
