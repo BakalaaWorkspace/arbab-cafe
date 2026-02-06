@@ -10,14 +10,14 @@ import CheckoutScreen from "./screen/checkout.screen"
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,        // layout
+    element: <App />,
     children: [
       {
-        index: true,         // "/"
+        index: true,
         element: <HomeScreen />,
       },
       {
-        path: "checkout",    // "/checkout"
+        path: "checkout",
         element: <CheckoutScreen />,
       },
     ],

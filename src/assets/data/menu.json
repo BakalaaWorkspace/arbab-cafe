@@ -1,6 +1,327 @@
 {
     "categories": [
         {
+            "id": "639e49fc-0b41-4930-b04b-ee1b29965225",
+            "name": "Burger",
+            "key": "burger",
+            "products": [
+                {
+                    "id": "75765a51-ee14-4ceb-86c0-f6ea8ed89f41",
+                    "name": "chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 80
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "eae791ad-77fc-41ff-b83b-5a678da9281d",
+                    "name": "whole chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 130
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 150
+                        }
+                    ]
+                },
+                {
+                    "id": "4b754c23-cd35-4a62-adcc-ca3e22766c1d",
+                    "name": "crispy chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 100
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 120
+                        }
+                    ]
+                },
+                {
+                    "id": "fc905dde-974f-4a3d-89eb-081c6d683652",
+                    "name": "xinger chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 120
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 140
+                        }
+                    ]
+                },
+                {
+                    "id": "142efef6-69c0-43db-be75-869f61034f28",
+                    "name": "bbq chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": 150
+                        },
+                        {
+                            "size": "cheese",
+                            "price": 170
+                        }
+                    ]
+                },
+                {
+                    "id": "a8352f60-e0f6-42f3-8e11-671a89a09990",
+                    "name": "peri peri chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": "150"
+                        },
+                        {
+                            "size": "cheese",
+                            "price": "170"
+                        }
+                    ]
+                },
+                {
+                    "id": "40941e59-594e-4db0-a59a-dadaafa7c472",
+                    "name": "spicy chicken burger",
+                    "badge": "non-veg",
+                    "variants": [
+                        {
+                            "size": "plain",
+                            "price": "150"
+                        },
+                        {
+                            "size": "cheese",
+                            "price": "170"
+                        }
+                    ]
+                },
+                {
+                    "id": "6456e56f-0d3f-45ae-8993-d140481c9861",
+                    "name": "double cheese burger",
+                    "badge": "non-veg",
+                    "price": 200
+                },
+                {
+                    "id": "1d736764-3929-41be-bd8c-c6c71447b2e9",
+                    "name": "cheese burst burger",
+                    "badge": "non-veg",
+                    "price": 200
+                },
+                {
+                    "id": "a23685de-7812-48d3-b66b-ed8990cebc66",
+                    "name": "grilled burger",
+                    "badge": "non-veg",
+                    "price": 120
+                }
+            ]
+        },
+        {
+            "id": "3f6f6fb8-ca22-4cc4-ac71-a159c1fbfb46",
+            "name": "Pizza",
+            "key": "pizza",
+            "products": [
+                {
+                    "id": "22aeba00-39b0-4f90-8ba4-c7049d509c0f",
+                    "name": "dominator pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 280
+                        },
+                        {
+                            "size": "medium",
+                            "price": 450
+                        }
+                    ]
+                },
+                {
+                    "id": "53f67b38-629d-4167-9faa-62048a87f84d",
+                    "name": "mexican pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 270
+                        },
+                        {
+                            "size": "medium",
+                            "price": 430
+                        }
+                    ]
+                },
+                {
+                    "id": "7cbce1b9-ac5c-4eeb-9b0b-07e7116d7350",
+                    "name": "volcano pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 450
+                        },
+                        {
+                            "size": "medium",
+                            "price": 800
+                        }
+                    ]
+                },
+                {
+                    "id": "97254f55-e7a7-45f3-9fc9-7fb83a53df83",
+                    "name": "tikka pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "4c9c740c-19f8-4550-933c-2147d50a78fd",
+                    "name": "peri peri pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "11111c87-1e43-4394-9dee-a64fd78ad373",
+                    "name": "bbq pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "bada6018-b00d-425d-918d-acf73ddde208",
+                    "name": "chiptole pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "5a6fd77b-867f-49b2-b6e6-7d63144ae62f",
+                    "name": "bitter cheese pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "e527b126-e84b-4209-9258-e07bf714ea51",
+                    "name": "golden delight pizza",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                },
+                {
+                    "id": "90367edc-e592-4f17-a014-fbcf1abc73ce",
+                    "name": "cheese burst pizza",
+                    "badge": "cheesy",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 300
+                        },
+                        {
+                            "size": "medium",
+                            "price": 650
+                        }
+                    ]
+                },
+                {
+                    "id": "4cef2529-b170-4803-8b28-57a06b06fd1c",
+                    "name": "veg. pizza",
+                    "badge": "veg",
+                    "variants": [
+                        {
+                            "size": "small",
+                            "price": 250
+                        },
+                        {
+                            "size": "medium",
+                            "price": 400
+                        },
+                        {
+                            "size": "cheese burst",
+                            "price": 99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "959f8159-d256-4ead-a213-a840c8880399",
             "name": "Fries",
             "key": "fries",
@@ -322,197 +643,6 @@
             ]
         },
         {
-            "id": "3f6f6fb8-ca22-4cc4-ac71-a159c1fbfb46",
-            "name": "Pizza",
-            "key": "pizza",
-            "products": [
-                {
-                    "id": "22aeba00-39b0-4f90-8ba4-c7049d509c0f",
-                    "name": "dominator pizza",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 280
-                        },
-                        {
-                            "size": "medium",
-                            "price": 450
-                        }
-                    ]
-                },
-                {
-                    "id": "53f67b38-629d-4167-9faa-62048a87f84d",
-                    "name": "mexican pizza",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 270
-                        },
-                        {
-                            "size": "medium",
-                            "price": 430
-                        }
-                    ]
-                },
-                {
-                    "id": "7cbce1b9-ac5c-4eeb-9b0b-07e7116d7350",
-                    "name": "volcano pizza",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 450
-                        },
-                        {
-                            "size": "medium",
-                            "price": 800
-                        }
-                    ]
-                },
-                {
-                    "id": "97254f55-e7a7-45f3-9fc9-7fb83a53df83",
-                    "name": "tikka pizza",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 250
-                        },
-                        {
-                            "size": "medium",
-                            "price": 400
-                        },
-                        {
-                            "size": "cheese burst",
-                            "price": 99
-                        }
-                    ]
-                },
-                {
-                    "id": "4c9c740c-19f8-4550-933c-2147d50a78fd",
-                    "name": "peri peri pizza",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 250
-                        },
-                        {
-                            "size": "medium",
-                            "price": 400
-                        },
-                        {
-                            "size": "cheese burst",
-                            "price": 99
-                        }
-                    ]
-                },
-                {
-                    "id": "11111c87-1e43-4394-9dee-a64fd78ad373",
-                    "name": "bbq pizza",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 250
-                        },
-                        {
-                            "size": "medium",
-                            "price": 400
-                        },
-                        {
-                            "size": "cheese burst",
-                            "price": 99
-                        }
-                    ]
-                },
-                {
-                    "id": "bada6018-b00d-425d-918d-acf73ddde208",
-                    "name": "chiptole pizza",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 250
-                        },
-                        {
-                            "size": "medium",
-                            "price": 400
-                        },
-                        {
-                            "size": "cheese burst",
-                            "price": 99
-                        }
-                    ]
-                },
-                {
-                    "id": "5a6fd77b-867f-49b2-b6e6-7d63144ae62f",
-                    "name": "bitter cheese pizza",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 250
-                        },
-                        {
-                            "size": "medium",
-                            "price": 400
-                        },
-                        {
-                            "size": "cheese burst",
-                            "price": 99
-                        }
-                    ]
-                },
-                {
-                    "id": "e527b126-e84b-4209-9258-e07bf714ea51",
-                    "name": "golden delight pizza",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 250
-                        },
-                        {
-                            "size": "medium",
-                            "price": 400
-                        },
-                        {
-                            "size": "cheese burst",
-                            "price": 99
-                        }
-                    ]
-                },
-                {
-                    "id": "90367edc-e592-4f17-a014-fbcf1abc73ce",
-                    "name": "cheese burst pizza",
-                    "badge": "cheesy",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 300
-                        },
-                        {
-                            "size": "medium",
-                            "price": 650
-                        }
-                    ]
-                },
-                {
-                    "id": "4cef2529-b170-4803-8b28-57a06b06fd1c",
-                    "name": "veg. pizza",
-                    "badge": "veg",
-                    "variants": [
-                        {
-                            "size": "small",
-                            "price": 250
-                        },
-                        {
-                            "size": "medium",
-                            "price": 400
-                        },
-                        {
-                            "size": "cheese burst",
-                            "price": 99
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "bc2936bc-abb3-400d-85fa-2ca15be3099f",
             "name": "Add-On",
             "key": "add_on",
@@ -531,136 +661,6 @@
                     "id": "142f1914-c964-4958-b35c-a1a07a8277c1",
                     "name": "coselaw salad",
                     "price": 60
-                }
-            ]
-        },
-        {
-            "id": "639e49fc-0b41-4930-b04b-ee1b29965225",
-            "name": "Burger",
-            "key": "burger",
-            "products": [
-                {
-                    "id": "75765a51-ee14-4ceb-86c0-f6ea8ed89f41",
-                    "name": "chicken burger",
-                    "badge": "non-veg",
-                    "variants": [
-                        {
-                            "size": "plain",
-                            "price": 80
-                        },
-                        {
-                            "size": "cheese",
-                            "price": 100
-                        }
-                    ]
-                },
-                {
-                    "id": "eae791ad-77fc-41ff-b83b-5a678da9281d",
-                    "name": "whole chicken burger",
-                    "badge": "non-veg",
-                    "variants": [
-                        {
-                            "size": "plain",
-                            "price": 130
-                        },
-                        {
-                            "size": "cheese",
-                            "price": 150
-                        }
-                    ]
-                },
-                {
-                    "id": "4b754c23-cd35-4a62-adcc-ca3e22766c1d",
-                    "name": "crispy chicken burger",
-                    "badge": "non-veg",
-                    "variants": [
-                        {
-                            "size": "plain",
-                            "price": 100
-                        },
-                        {
-                            "size": "cheese",
-                            "price": 120
-                        }
-                    ]
-                },
-                {
-                    "id": "fc905dde-974f-4a3d-89eb-081c6d683652",
-                    "name": "xinger chicken burger",
-                    "badge": "non-veg",
-                    "variants": [
-                        {
-                            "size": "plain",
-                            "price": 120
-                        },
-                        {
-                            "size": "cheese",
-                            "price": 140
-                        }
-                    ]
-                },
-                {
-                    "id": "142efef6-69c0-43db-be75-869f61034f28",
-                    "name": "bbq chicken burger",
-                    "badge": "non-veg",
-                    "variants": [
-                        {
-                            "size": "plain",
-                            "price": 150
-                        },
-                        {
-                            "size": "cheese",
-                            "price": 170
-                        }
-                    ]
-                },
-                {
-                    "id": "a8352f60-e0f6-42f3-8e11-671a89a09990",
-                    "name": "peri peri chicken burger",
-                    "badge": "non-veg",
-                    "variants": [
-                        {
-                            "size": "plain",
-                            "price": "150"
-                        },
-                        {
-                            "size": "cheese",
-                            "price": "170"
-                        }
-                    ]
-                },
-                {
-                    "id": "40941e59-594e-4db0-a59a-dadaafa7c472",
-                    "name": "spicy chicken burger",
-                    "badge": "non-veg",
-                    "variants": [
-                        {
-                            "size": "plain",
-                            "price": "150"
-                        },
-                        {
-                            "size": "cheese",
-                            "price": "170"
-                        }
-                    ]
-                },
-                {
-                    "id": "6456e56f-0d3f-45ae-8993-d140481c9861",
-                    "name": "double cheese burger",
-                    "badge": "non-veg",
-                    "price": 200
-                },
-                {
-                    "id": "1d736764-3929-41be-bd8c-c6c71447b2e9",
-                    "name": "cheese burst burger",
-                    "badge": "non-veg",
-                    "price": 200
-                },
-                {
-                    "id": "a23685de-7812-48d3-b66b-ed8990cebc66",
-                    "name": "grilled burger",
-                    "badge": "non-veg",
-                    "price": 120
                 }
             ]
         },
