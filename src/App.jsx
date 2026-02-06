@@ -1,12 +1,18 @@
+import { Outlet } from "react-router-dom"
 import { Navbar } from "@/components/navbar"
-import { HeroSection } from "@/components/hero-section"
-import { MenuSection } from "@/components/menu-section"
+import Footer from "@/components/footer"
+
 function App() {
   return (
-    <main className="min-h-screen bg-background font-sans antialiased">
+    <main className="min-h-screen bg-background font-sans antialiased flex flex-col">
       <Navbar />
-      <HeroSection />
-      <MenuSection />
+
+      {/* Page content */}
+      <div className="flex-1">
+        <Outlet />
+      </div>
+
+      <Footer />
     </main>
   )
 }

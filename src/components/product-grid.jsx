@@ -44,6 +44,7 @@ export function ProductGrid({ category }) {
         <ProductCard
           key={`${category}-${product.id}`}
           product={product}
+          categoryName={categoryData.key}
         />
       ))}
     </div>

@@ -3,46 +3,47 @@
         {
             "id": "959f8159-d256-4ead-a213-a840c8880399",
             "name": "Fries",
+            "key": "fries",
             "products": [
                 {
                     "id": "80747657-a03e-4d56-8312-609dd4751c85",
                     "name": "Salted Fries",
                     "price": 100,
-                    "image": "",
+                    "image": "src/assets/images/fries/placeholder.jpg",
                     "badge": "veg"
                 },
                 {
                     "id": "e4bd84ab-25c4-44f1-a6db-f0261e25d215",
                     "name": "Peri Peri Fries",
                     "price": 120,
-                    "image": "",
+                    "image": "src/assets/images/fries/placeholder.jpg",
                     "badge": "veg"
                 },
                 {
                     "id": "16f162a7-67bc-4c13-bc2a-3ecf5258e473",
                     "name": "Masala Fries",
                     "price": 130,
-                    "image": "",
+                    "image": "src/assets/images/fries/placeholder.jpg",
                     "badge": "veg"
                 },
                 {
                     "id": "b69a154d-3e5e-472d-bee0-46c969db41d3",
                     "name": "Cheesy Fries",
                     "price": 150,
-                    "image": "",
+                    "image": "src/assets/images/fries/placeholder.jpg",
                     "badge": "veg"
                 },
                 {
                     "id": "bd52ca67-4882-4037-9e82-7107f2a2326b",
                     "name": "Chees Pasta Fries",
                     "price": 250,
-                    "image": "",
+                    "image": "src/assets/images/fries/placeholder.jpg",
                     "badge": "veg"
                 },
                 {
                     "id": "e77f4d7b-a25d-4387-85ec-f06608e9fb0a",
                     "name": "Broasted Chicken Fries",
-                    "image": "",
+                    "image": "src/assets/images/fries/placeholder.jpg",
                     "badge": "non-veg",
                     "variants": [
                         {
@@ -63,21 +64,21 @@
                     "id": "fb99ed10-420f-4c0e-bcd1-18829891427e",
                     "name": "Chiptole Fries",
                     "price": 170,
-                    "image": "",
+                    "image": "src/assets/images/fries/placeholder.jpg",
                     "badge": "veg"
                 },
                 {
                     "id": "0a323971-4434-4670-bdec-9db3aa388e84",
                     "name": "Overloaded Fries",
                     "price": 170,
-                    "image": "",
+                    "image": "src/assets/images/fries/placeholder.jpg",
                     "badge": "veg"
                 },
                 {
                     "id": "fea2fca9-8e57-4b0c-badc-6f83c66879e3",
                     "name": "Overloaded Chicken Fries",
                     "price": 170,
-                    "image": "",
+                    "image": "src/assets/images/fries/placeholder.jpg",
                     "badge": "non-veg"
                 }
             ]
@@ -85,6 +86,7 @@
         {
             "id": "ccb34557-8f27-4fac-8943-c31c21f65a6c",
             "name": "Potato Wedges",
+            "key": "potato_wedges",
             "products": [
                 {
                     "id": "9bc53adb-bd3f-40e6-bf59-5b7b38195beb",
@@ -126,6 +128,7 @@
         {
             "id": "ff0768e5-4663-4646-8143-92f5bc8c1621",
             "name": "Wings",
+            "key": "wings",
             "products": [
                 {
                     "id": "74ccb5ef-b831-4ca8-8759-4b8a03d41654",
@@ -167,6 +170,7 @@
         {
             "id": "e276d484-c82a-46d9-90a8-05223674941f",
             "name": "Mocktails",
+            "key": "mocktails",
             "products": [
                 {
                     "id": "9b268d30-f1bf-4d05-8b71-35e43e1f0da9",
@@ -193,6 +197,7 @@
         {
             "id": "7e3c872f-e2d1-41fc-bd7e-647e4cd6513e",
             "name": "Sandwich",
+            "key": "sandwich",
             "products": [
                 {
                     "id": "c27b1cfb-ffb1-48cf-8eee-80a9bcbf1973",
@@ -235,6 +240,7 @@
         {
             "id": "2bf07d57-aec3-4edf-bba9-b36845ba0b82",
             "name": "Wraps",
+            "key": "wraps",
             "products": [
                 {
                     "id": "82f97680-05aa-4d9d-86f5-4c3b4283293d",
@@ -271,6 +277,7 @@
         {
             "id": "b7adbb79-63fa-45b7-985a-e65287d90f00",
             "name": "Momos",
+            "key": "momos",
             "products": [
                 {
                     "id": "699eacb8-fbd0-4398-b496-de53ead46aec",
@@ -317,6 +324,7 @@
         {
             "id": "3f6f6fb8-ca22-4cc4-ac71-a159c1fbfb46",
             "name": "Pizza",
+            "key": "pizza",
             "products": [
                 {
                     "id": "22aeba00-39b0-4f90-8ba4-c7049d509c0f",
@@ -507,6 +515,7 @@
         {
             "id": "bc2936bc-abb3-400d-85fa-2ca15be3099f",
             "name": "Add-On",
+            "key": "add_on",
             "products": [
                 {
                     "id": "7fc04faa-ee81-427d-b32a-1f5174fe91be",
@@ -528,6 +537,7 @@
         {
             "id": "639e49fc-0b41-4930-b04b-ee1b29965225",
             "name": "Burger",
+            "key": "burger",
             "products": [
                 {
                     "id": "75765a51-ee14-4ceb-86c0-f6ea8ed89f41",
@@ -657,6 +667,7 @@
         {
             "id": "9227d99e-eb4f-4ec1-bc0d-6f9cf404f385",
             "name": "Smashed Grilled Burger (Premium)",
+            "key": "smashed_grilled_burger",
             "products": [
                 {
                     "id": "b458f9a7-b0c6-4958-a22c-ab05f9f6b691",
@@ -681,6 +692,7 @@
         {
             "id": "affc2b19-4a30-4ff9-84f1-2a0b387a591d",
             "name": "double burger",
+            "key": "double_burger",
             "products": [
                 {
                     "id": "21ac08e7-ac82-47d6-bcd4-72cf69db96d6",
@@ -712,6 +724,7 @@
         {
             "id": "4d52dbc7-f786-446f-a796-8d11878cea09",
             "name": "bucket broast",
+            "key": "bucket_broast",
             "products": [
                 {
                     "id": "b5b117e8-c1d1-4407-87b6-95fb442f3bef",
@@ -743,6 +756,7 @@
         {
             "id": "50f4ea1c-9d91-4eea-b795-245a2330890b",
             "name": "Broasted Starter",
+            "key": "broasted_starter",
             "products": [
                 {
                     "id": "cbb6dc54-e1b0-45d3-98d6-f6de0695feeb",
@@ -789,6 +803,7 @@
         {
             "id": "45ae437e-32db-4020-a34f-24864d5c8764",
             "name": "broasted arbab",
+            "key": "broasted_arbab",
             "products": [
                 {
                     "id": "0906cd1e-7b82-401f-b695-bc439b48fa64",
@@ -835,6 +850,7 @@
         {
             "id": "98fea197-5ca8-4d5b-9ee3-ba70d0437e79",
             "name": "tandoori broast",
+            "key": "tandoori_broast",
             "products": [
                 {
                     "id": "2c0e3623-6ba6-4aa4-8ceb-908580a322cb",
@@ -856,6 +872,7 @@
         {
             "id": "9c00c20b-9807-4e51-b8fb-726f94a53f65",
             "name": "broasted burger",
+            "key": "broasted_burger",
             "products": [
                 {
                     "id": "3db8ea2e-b298-49d5-8fec-2666ca3d7b8e",
@@ -948,6 +965,7 @@
         {
             "id": "91b24eca-001b-41e7-8b57-6ef44c21af9a",
             "name": "Broasted with Sweet Chilly",
+            "key": "broasted_with_sweet_chilly",
             "products": [
                 {
                     "id": "d1deb87b-1436-41b6-8329-d905e831672c",
@@ -984,6 +1002,7 @@
         {
             "id": "ad5a7bf7-13b0-47cd-8390-f0cae4ac61fe",
             "name": "Milkshakes",
+            "key": "milkshakes",
             "products": [
                 {
                     "id": "16ce6427-bd5f-4334-90bf-cd301326d1ee",
@@ -1040,6 +1059,7 @@
         {
             "id": "ff22eeef-2e82-4141-9967-33d42f88f2a2",
             "name": "smash burger",
+            "key": "smash_burger",
             "products": [
                 {
                     "id": "35152949-b6f3-430c-90b1-1f305676546d",
@@ -1179,6 +1199,7 @@
         {
             "id": "0f9c624e-6be0-46a7-93d4-9469cddebc3d",
             "name": "Meals",
+            "key": "meals",
             "products": [
                 {
                     "id": "0ef55f18-9137-46b0-b899-1a9607fdfe24",

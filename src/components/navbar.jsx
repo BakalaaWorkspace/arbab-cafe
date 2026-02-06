@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { ShoppingBag } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion,AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useCartStore } from "@/store/cart.store";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
-
+  const cart = useCartStore((state) => state.cart);
+  const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 16);
@@ -19,27 +21,25 @@ export function Navbar() {
       initial={{ y: -80 }}
       animate={{ y: 0 }}
       transition={{ type: "spring", stiffness: 120, damping: 20 }}
-      className={`fixed top-0 z-[100] w-full transform-gpu will-change-transform`}
+      className={`fixed top-0 z-100 w-full transform-gpu will-change-transform`}
     >
       {/* Background layer (separate to avoid border artifacts) */}
       <div
-        className={`absolute inset-0 transition-all duration-500 ${
-          isScrolled
+        className={`absolute inset-0 transition-all duration-500 ${isScrolled
             ? "bg-zinc-950/80 backdrop-blur-xl shadow-[0_8px_30px_rgba(0,0,0,0.35)]"
             : "bg-transparent"
-        }`}
+          }`}
       />
 
       {/* Soft gradient divider instead of border */}
       {isScrolled && (
-        <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+        <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-white/10 to-transparent" />
       )}
 
       <nav className="relative mx-auto max-w-500 px-4 sm:px-6 lg:px-8">
         <div
-          className={`flex items-center justify-between transition-all duration-500 ${
-            isScrolled ? "py-3" : "py-6"
-          }`}
+          className={`flex items-center justify-between transition-all duration-500 ${isScrolled ? "py-3" : "py-6"
+            }`}
         >
           {/* Logo */}
           <Link to="/" className="group relative flex items-center">
@@ -62,9 +62,19 @@ export function Navbar() {
             >
               <div className="relative">
                 <ShoppingBag className="h-4 w-4 sm:h-5 sm:w-5 text-zinc-200 group-hover:text-red-500 transition-colors" />
-                <span className="absolute -top-1.5 -right-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-red-600 text-[9px] font-bold text-white">
-                  0
-                </span>
+                <AnimatePresence mode="popLayout">
+                  {totalItems > 0 && (
+                    <motion.span
+                      key={totalItems}
+                      initial={{ scale: 0.5, opacity: 0 }}
+                      animate={{ scale: 1, opacity: 1 }}
+                      exit={{ scale: 0.5, opacity: 0 }}
+                      className="absolute -top-1.5 -right-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-red-600 text-[9px] font-bold text-white shadow-lg"
+                    >
+                      {totalItems}
+                    </motion.span>
+                  )}
+                </AnimatePresence>
               </div>
               <span className="hidden sm:block text-[10px] font-bold uppercase tracking-widest text-zinc-200">
                 Cart
