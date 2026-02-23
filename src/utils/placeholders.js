@@ -1,4 +1,3 @@
-// src/utils/placeholders.js
 import burger from "@/assets/images/burger/placeholder.jpg";
 import pizza from "@/assets/images/pizza/placeholder.jpg";
 import milkshake from "@/assets/images/milkshake/placeholder.jpg";
