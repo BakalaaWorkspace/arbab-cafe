@@ -5,6 +5,7 @@ import { capitalizeWords } from "@/utils/capitaliseWords";
 import { getCategoryPlaceholder } from "@/utils/placeholders";
 import { getBadgeConfig } from "@/utils/getBadgeLable.js";
 import { useCartStore } from "@/store/cart.store";
+import { applyCommission } from "@/utils/applyCommission";
 
 export function ProductCard({ product, categoryName }) {
   const { addItem, removeItem, getItemQuantity } = useCartStore();
@@ -16,10 +17,22 @@ export function ProductCard({ product, categoryName }) {
   const quantity = getItemQuantity(product.id, selectedVariant?.size);
 
   const badge = product.badge ? getBadgeConfig(product.badge) : null;
+  const getFinalPrice = (price) => {
+    return applyCommission(Number(price));
+  };
+const getBasePrice = () => {
+  if (hasVariants) {
+    if (selectedVariant) return Number(selectedVariant.price);
 
-  const displayPrice = hasVariants
-    ? (selectedVariant ? selectedVariant.price : Math.min(...product.variants.map(v => v.price)))
-    : product.price;
+    return Math.min(
+      ...product.variants.map(v => Number(v.price))
+    );
+  }
+
+  return Number(product.price);
+};
+
+  const displayPrice = getFinalPrice(getBasePrice());
 
   const handleActionClick = () => {
     if (hasVariants && !selectedVariant) {
@@ -148,24 +161,28 @@ export function ProductCard({ product, categoryName }) {
 
 
             <div className="space-y-2 overflow-y-auto flex-1 pr-1 custom-scrollbar">
-              {product.variants.map(v => (
-                <button
-                  key={v.size}
-                  onClick={() => {
-                    setSelectedVariant(v);
-                    setShowVariants(false);
-                    addItem(product, v);
-                  }}
-                  className="w-full flex justify-between items-center p-3 sm:p-5 rounded-xl sm:rounded-2xl border border-white/5 bg-white/2 hover:border-red-600/50 hover:bg-red-900/10 transition-all group/btn"
-                >
-                  <span className="text-white font-serif italic text-base sm:text-xl group-hover/btn:text-red-500">
-                    {v.size}
-                  </span>
-                  <span className="text-zinc-400 font-bold tracking-wider text-xs sm:text-sm">
-                    ₹{v.price}
-                  </span>
-                </button>
-              ))}
+              {product.variants.map(v => {
+                const commissionVariantPrice = applyCommission(Number(v.price));
+                return (
+                  <button
+                    key={v.size}
+                    onClick={() => {
+                      setSelectedVariant(v);
+                      setShowVariants(false);
+                      addItem(product, v);
+                    }}
+                    className="w-full flex justify-between items-center p-3 sm:p-5 rounded-xl sm:rounded-2xl border border-white/5 bg-white/2 hover:border-red-600/50 hover:bg-red-900/10 transition-all"
+                  >
+                    <span className="text-white font-serif italic text-base sm:text-xl">
+                      {v.size}
+                    </span>
+
+                    <span className="text-zinc-400 font-bold tracking-wider text-xs sm:text-sm">
+                      ₹{commissionVariantPrice}
+                    </span>
+                  </button>
+                );
+              })}
             </div>
           </motion.div>
         )}

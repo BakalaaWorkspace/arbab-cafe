@@ -24,7 +24,7 @@ const router = createBrowserRouter([
   },
   
 ],
-{basename: "/arbab-cafe",}
+
 )
 
 createRoot(document.getElementById("root")).render(

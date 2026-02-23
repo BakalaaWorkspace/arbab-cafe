@@ -1,13 +1,25 @@
-import { create } from 'zustand';
+import { applyCommission } from "@/utils/applyCommission";
+import { create } from "zustand";
 
 export const useCartStore = create((set, get) => ({
   cart: [],
 
   addItem: (product, variant = null) => {
     const cart = get().cart;
-    const cartItemId = variant ? `${product.id}-${variant.size}` : product.id;
 
-    const existingItem = cart.find((item) => item.cartItemId === cartItemId);
+    const cartItemId = variant
+      ? `${product.id}-${variant.size}`
+      : product.id;
+
+    const existingItem = cart.find(
+      (item) => item.cartItemId === cartItemId
+    );
+
+    const originalPrice = Number(
+      variant ? variant.price : product.price
+    );
+
+    const commissionPrice = applyCommission(originalPrice);
 
     if (existingItem) {
       set({
@@ -26,9 +38,10 @@ export const useCartStore = create((set, get) => ({
             id: product.id,
             name: product.name,
             image: product.image,
-            price: variant ? variant.price : product.price,
-            variant: variant,
+            variant,
             quantity: 1,
+            originalPrice,
+            commissionPrice,
           },
         ],
       });
@@ -37,7 +50,9 @@ export const useCartStore = create((set, get) => ({
 
   removeItem: (cartItemId) => {
     const cart = get().cart;
-    const existingItem = cart.find((item) => item.cartItemId === cartItemId);
+    const existingItem = cart.find(
+      (item) => item.cartItemId === cartItemId
+    );
 
     if (existingItem.quantity > 1) {
       set({
@@ -49,16 +64,25 @@ export const useCartStore = create((set, get) => ({
       });
     } else {
       set({
-        cart: cart.filter((item) => item.cartItemId !== cartItemId),
+        cart: cart.filter(
+          (item) => item.cartItemId !== cartItemId
+        ),
       });
     }
   },
 
   getItemQuantity: (productId, variantSize = null) => {
-    const cartItemId = variantSize ? `${productId}-${variantSize}` : productId;
-    const item = get().cart.find((i) => i.cartItemId === cartItemId);
+    const cartItemId = variantSize
+      ? `${productId}-${variantSize}`
+      : productId;
+
+    const item = get().cart.find(
+      (i) => i.cartItemId === cartItemId
+    );
+
     return item ? item.quantity : 0;
   },
-  
-  getTotalItems: () => get().cart.reduce((acc, item) => acc + item.quantity, 0),
+
+  getTotalItems: () =>
+    get().cart.reduce((acc, item) => acc + item.quantity, 0),
 }));

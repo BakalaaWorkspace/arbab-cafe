@@ -4,8 +4,10 @@ import path from "path"
 import tailwindcss from "@tailwindcss/vite"
 
 export default defineConfig({
-    plugins: [react(), tailwindcss()],
-    base: "/arbab-cafe/",
+  plugins: [react(), tailwindcss()],
+  base: process.env.NODE_ENV === "production"
+    ? "/arbab-cafe/"
+    : "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

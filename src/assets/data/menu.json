@@ -102,11 +102,11 @@
                     "variants": [
                         {
                             "size": "plain",
-                            "price": "150"
+                            "price": 150
                         },
                         {
                             "size": "cheese",
-                            "price": "170"
+                            "price": 170
                         }
                     ]
                 },

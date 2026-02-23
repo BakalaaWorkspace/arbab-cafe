@@ -3,7 +3,7 @@ import { CategoryNav } from "./category-nav";
 import { ProductGrid } from "./product-grid";
 
 export function MenuSection() {
-    const [selectedCategory, setSelectedCategory] = useState("959f8159-d256-4ead-a213-a840c8880399")
+    const [selectedCategory, setSelectedCategory] = useState("639e49fc-0b41-4930-b04b-ee1b29965225")
 
     return (
         <section

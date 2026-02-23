@@ -1,4 +1,4 @@
-import { Plus, Minus } from "lucide-react"; 
+import { Plus, Minus } from "lucide-react";
 import { useCartStore } from "@/store/cart.store";
 
 export const CheckoutProductCard = ({ item }) => {
@@ -46,7 +46,7 @@ export const CheckoutProductCard = ({ item }) => {
             >
               <Minus size={14} />
             </button>
-            
+
             <span className="text-sm sm:text-base font-bold text-white tabular-nums min-w-6 text-center">
               {item.quantity}
             </span>
@@ -58,11 +58,12 @@ export const CheckoutProductCard = ({ item }) => {
               <Plus size={14} />
             </button>
           </div>
-          
+
           <div className="text-right">
             <p className="hidden sm:block text-[9px] uppercase tracking-widest text-zinc-600 mb-1 font-bold">Total Price</p>
             <span className="text-base sm:text-2xl font-bold text-white tabular-nums tracking-tight">
-              ₹{item.price * item.quantity}
+              {/* ₹{item.price * item.quantity} */}
+              ₹{item.commissionPrice * item.quantity}
             </span>
           </div>
         </div>
