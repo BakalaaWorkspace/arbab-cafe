@@ -46,7 +46,7 @@ export function Navbar() {
             <motion.img
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              src="src/assets/logo.png"
+              src="/logo.png"
               alt="Arbab Cafe"
               className="h-8 sm:h-10 w-auto object-contain brightness-110"
             />

@@ -16,7 +16,7 @@ const Footer = () => {
           {/* BRAND + CONTACT INFO */}
           <div className="flex flex-col space-y-6 items-center lg:items-start text-center lg:text-left max-w-md">
             <img
-              src="src/assets/logo.png"
+              src="logo.png"
               alt="Arbab Cafe Logo"
               className="h-16 w-auto brightness-110"
             />

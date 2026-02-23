@@ -20,7 +20,7 @@ import smashedBurgerPremium from '@/assets/images/smashed_premium/placeholder.jp
 import doubleBurger from '@/assets/images/double_burger/placeholder.jpg';
 import broastedSweetChilly from '@/assets/images/broasted_sweet_chily/placeholder.png';
 import meals from '@/assets/images/meals/placeholder.png';
-import generic from "@/assets/logo.png";
+import generic from "/logo.png";
 
 const CATEGORY_PLACEHOLDERS = {
     burger: burger,
