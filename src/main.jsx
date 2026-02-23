@@ -1,13 +1,13 @@
 import { StrictMode } from "react"
 import { createRoot } from "react-dom/client"
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { createHashRouter, RouterProvider } from "react-router-dom"
 import "./index.css"
 
 import App from "./App"
 import HomeScreen from "./screen/home.screen"
 import CheckoutScreen from "./screen/checkout.screen"
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
